@@ -1,0 +1,50 @@
+html{scroll-behavior:smooth}
+.home main{max-width:none;margin:0;padding:0}
+.home{--hero:#a50f1b}
+.hbar{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.55rem clamp(1rem,4vw,3rem);background:var(--sf);border-bottom:1px solid var(--ln)}
+.hmarca{display:flex;align-items:center;gap:.6rem;text-decoration:none;color:var(--tx);font:700 1rem Georgia,serif}
+.hmarca img{width:36px;height:36px;object-fit:contain}
+.hnav{display:flex;gap:1.2rem}.hnav a{color:var(--mu);text-decoration:none;font-weight:600;font-size:.92rem}.hnav a:hover{color:var(--ac)}
+@media(max-width:640px){.hnav{display:none}}
+.hero{background:linear-gradient(160deg,#b3121f,#8d0d18);color:#fff;text-align:center;padding:clamp(2.5rem,7vw,5rem) 1.2rem clamp(3rem,8vw,5.5rem)}
+.hescudo{width:clamp(120px,22vw,170px);height:auto;background:#fff;border:5px solid #fff;border-radius:18px;box-shadow:0 14px 34px rgba(0,0,0,.35)}
+.eyebrow{margin:1.4rem 0 .4rem;letter-spacing:.14em;text-transform:uppercase;font-size:.8rem;font-weight:700;opacity:.9}
+.hero h1{font:700 clamp(1.8rem,5.5vw,3.2rem)/1.15 Georgia,"Times New Roman",serif;margin:0}
+.hero h1 span{font-weight:400;font-style:italic;opacity:.95}
+.lema{font-size:1.15rem;margin:1rem 0 1.8rem;opacity:.95}
+.hcta{display:flex;gap:.8rem;justify-content:center;flex-wrap:wrap}
+.grande-h{display:inline-block;text-decoration:none;text-align:center;padding:.8rem 1.5rem;border-radius:8px;font-size:1rem}
+.hero .btn{background:#fff;color:#a50f1b}.hero .btn.claro{background:none;color:#fff;border:2px solid #fff}
+.sec{padding:clamp(2.5rem,6vw,4.5rem) clamp(1rem,5vw,3rem);max-width:1100px;margin:0 auto}
+.sec.gris{max-width:none;background:var(--wa2)}.sec.gris>*{max-width:1100px;margin-left:auto;margin-right:auto}
+.sec h2{font:700 clamp(1.5rem,3.5vw,2rem) Georgia,serif;margin:0 0 1.2rem;padding-bottom:.5rem;border-bottom:3px solid var(--ac);display:inline-block}
+.sub2{color:var(--mu);margin:-.4rem 0 1.4rem}
+.cols{display:grid;gap:1.2rem 2.5rem;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));font-size:1.02rem}
+.lead{font:italic 1.25rem/1.5 Georgia,serif;margin:0;color:var(--ac)}
+.cifras{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:2rem;text-align:center}
+.cifras div{background:var(--sf);border:1px solid var(--ln);border-radius:12px;padding:1.1rem .5rem}
+.cifras b{display:block;font:700 clamp(1.5rem,4vw,2.2rem) Georgia,serif;color:var(--ac)}.cifras span{color:var(--mu);font-size:.85rem}
+.esp{display:grid;gap:1.2rem;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.esp article{background:var(--sf);border:1px solid var(--ln);border-top:5px solid var(--ac);border-radius:12px;padding:1.5rem}
+.ico{display:grid;place-items:center;width:52px;height:52px;border-radius:12px;background:var(--ac2);color:var(--ac);font-size:1.7rem}
+.esp h3{margin:.9rem 0 .3rem;font:700 1.3rem Georgia,serif}.esp p{margin:0;color:var(--mu)}
+.accesos{display:grid;gap:1.2rem;grid-template-columns:repeat(auto-fit,minmax(290px,1fr))}
+.acc{background:var(--sf);border:1px solid var(--ln);border-radius:14px;padding:1.6rem;display:flex;flex-direction:column;gap:1rem;box-shadow:0 8px 22px -14px rgba(0,0,0,.35)}
+.acc h3{margin:0;font:700 1.35rem Georgia,serif}
+.acc ul{margin:0;padding-left:1.1rem;color:var(--mu);flex:1}.acc li{margin:.3rem 0}
+.acc.rojo{border-top:6px solid var(--ac)}.acc:not(.rojo){border-top:6px solid #8a9097}
+.acc .btn{display:block}.enlace{text-align:center;color:var(--ac);font-weight:600;font-size:.92rem}
+.pie2{background:#585d64;color:#f4f4f5;padding:2.2rem clamp(1rem,5vw,3rem) 1.5rem}
+.pie2 h3{margin:0 0 .5rem;font:700 1.1rem Georgia,serif}.pie2 p{margin:0;line-height:1.7}.pie2 a{color:#fff}
+.pie2 .copy{margin-top:1.5rem;font-size:.8rem;color:#e9eaec;opacity:1}
+@media(max-width:640px){
+  .hbar{padding:.5rem 1rem}
+  .hmarca span{font-size:.95rem}
+  .hero{padding:2rem 1rem 2.6rem}
+  .hcta{flex-direction:column;align-items:stretch;max-width:320px;margin:0 auto}
+  .sec{padding:2rem 1rem}
+  .cifras{gap:.5rem}.cifras div{padding:.8rem .3rem}
+  .acc{padding:1.2rem}
+  .grande-h{padding:.9rem 1rem}
+}
+.blanco{display:inline-block;min-width:12rem;border-bottom:1px solid rgba(255,255,255,.5);height:1em;vertical-align:baseline}
